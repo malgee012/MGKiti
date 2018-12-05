@@ -13,6 +13,7 @@
 		F8690F4A21B7ECE50005A670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8690F4921B7ECE50005A670 /* Assets.xcassets */; };
 		F8690F4D21B7ECE50005A670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8690F4B21B7ECE50005A670 /* LaunchScreen.storyboard */; };
 		F8690F5021B7ECE50005A670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8690F4F21B7ECE50005A670 /* main.m */; };
+		F8690F5921B7ED980005A670 /* MGtest.m in Sources */ = {isa = PBXBuildFile; fileRef = F8690F5821B7ED980005A670 /* MGtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F8690F4C21B7ECE50005A670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8690F4E21B7ECE50005A670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8690F4F21B7ECE50005A670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8690F5721B7ED980005A670 /* MGtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGtest.h; sourceTree = "<group>"; };
+		F8690F5821B7ED980005A670 /* MGtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		F8690F3F21B7ECE40005A670 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				F8690F5621B7ED980005A670 /* Classes */,
 				F8690F4021B7ECE40005A670 /* AppDelegate.h */,
 				F8690F4121B7ECE40005A670 /* AppDelegate.m */,
 				F8690F4321B7ECE40005A670 /* ViewController.h */,
@@ -69,6 +73,16 @@
 				F8690F4F21B7ECE50005A670 /* main.m */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		F8690F5621B7ED980005A670 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8690F5721B7ED980005A670 /* MGtest.h */,
+				F8690F5821B7ED980005A670 /* MGtest.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +158,7 @@
 				F8690F4521B7ECE40005A670 /* ViewController.m in Sources */,
 				F8690F5021B7ECE50005A670 /* main.m in Sources */,
 				F8690F4221B7ECE40005A670 /* AppDelegate.m in Sources */,
+				F8690F5921B7ED980005A670 /* MGtest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
