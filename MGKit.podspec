@@ -32,19 +32,19 @@ Pod::Spec.new do |s|
 
   s.frameworks = "AVFoundation", "SystemConfiguration"
 
-  # s.vendored_frameworks = ""  依赖的非系统的框架
+  # s.vendored_frameworks = ""
 
 
-  # s.library   = "iconv"
+  # s.library   = "sqlite3"
 
   s.libraries = "sqlite3", "stdc++.6.0.9"
 
-  # s.vendored_libraries = ""  依赖的非系统的静态库
+  # s.vendored_libraries = ""
 
 
 
   s.requires_arc = true
 
-  s.dependency 'AFNetworking'
+  #s.dependency 'AFNetworking'
 
 end
