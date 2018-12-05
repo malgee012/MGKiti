@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MGKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "sssssss of MGKit."
 
   s.homepage     = "https://github.com/Maling1255/MGKit"
@@ -27,17 +27,24 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
+
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+
+  s.frameworks = "AVFoundation", "SystemConfiguration"
+
   # s.vendored_frameworks = ""  依赖的非系统的框架
 
+
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+
+  s.libraries = "sqlite3", "stdc++.6.0.9"
+
   # s.vendored_libraries = ""  依赖的非系统的静态库
+
 
 
   s.requires_arc = true
 
-  #s.dependency "JSONKit", "~> 1.4"
+  s.dependency 'AFNetworking'
 
 end
