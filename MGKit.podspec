@@ -36,9 +36,7 @@ Pod::Spec.new do |s|
 
 
   # s.library   = "sqlite3"
-
-  s.libraries = "sqlite3", "stdc++.6.0.9"
-
+  # s.libraries = "sqlite3", "stdc++.6.0.9"
   # s.vendored_libraries = ""
 
 
