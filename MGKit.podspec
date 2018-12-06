@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MGKit"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "sssssss of MGKit."
 
   s.homepage     = "https://github.com/Maling1255/MGKit"
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Maling1255/MGKit.git", :tag => s.version}
 
-  s.source_files  = "Classes/MGtest.{h,m}"
+  s.source_files  = "Classes/*.{h,m}"
 
 
   # s.public_header_files = "Classes/**/*.h"
