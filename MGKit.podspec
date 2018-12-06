@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MGKit"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "sssssss of MGKit."
 
   s.homepage     = "https://github.com/Maling1255/MGKit"
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-
+  s.resource     = 'Class/MGKit.bundle'
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
